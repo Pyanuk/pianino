@@ -39,7 +39,7 @@ class Program
         {
             ConsoleKeyInfo key = Console.ReadKey();
             Console.Clear();
-            int noteIndex = 1;
+            int noteIndex = -1;
             switch (key.Key)
             {
                 case ConsoleKey.A:
